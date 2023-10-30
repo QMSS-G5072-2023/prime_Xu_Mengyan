@@ -1,0 +1,40 @@
+:py:mod:`prime_mx2283-checkpoint`
+=================================
+
+.. py:module:: prime_mx2283-checkpoint
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   prime_mx2283-checkpoint.is_prime
+
+
+
+.. py:function:: is_prime(n)
+
+   Determine if a number is prime.
+
+   This function checks if a given number is prime. A number is considered prime if it
+   is greater than 1 and has no divisors other than 1 and itself.
+
+   Parameters:
+   - n (int): The number to check.
+
+   Returns:
+   - bool: True if n is prime, False otherwise.
+
+   Example:
+   >>> is_prime(5)
+   True
+
+   >>> is_prime(4)
+   False
+
+

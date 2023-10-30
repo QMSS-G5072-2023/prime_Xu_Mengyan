@@ -1,0 +1,22 @@
+:py:mod:`prime_mx2283`
+======================
+
+.. py:module:: prime_mx2283
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   prime_mx2283/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
+   
+
