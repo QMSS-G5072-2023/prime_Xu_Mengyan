@@ -9,6 +9,8 @@
 project = u"prime_mx2283"
 copyright = u"2023, Mengyan Xu"
 author = u"Mengyan Xu"
+master_doc = 'index'
+
 
 # -- General configuration ---------------------------------------------------
 
@@ -16,10 +18,10 @@ author = u"Mengyan Xu"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst_nb",
     "autoapi.extension",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
+    "myst_parser",
 ]
 autoapi_dirs = ["../src"]
 
